@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run java main",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "-cp",
+                "./src",
+                "com.maliefrr.Main",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+            }
+
+        }
+    ]
+}
